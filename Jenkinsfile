@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE = "TVOJDOCKERHUBUSERNAME/nginx-app"
+        DOCKER_IMAGE = "nevenadimova-sys/nginx-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
